@@ -1,4 +1,5 @@
 # Lack_of_Facts
+## By: Nisha Rajendran and Manmeet Gill
 ## Introduction
  In this day and age, especially with the election coming up soon, we realize that news and media outlets have a powerful impact on the result of the election. During an election time, it is crucial that only factual articles are posted for the public to read. However, people do not always have the time to read an entire article and instead just use the headlines to obtain knowledge of a subject. According to a study by Colombia and the French National Institute, 59% of the general population only read the headlines and shared the link without reading the rest of the article. This could pose as a huge problem since if people are not careful, they could spread misinformation unknowingly. While we can’t change human behavior, we can assist them by giving them an easier way to decipher implicit bias behind article headlines without making them read the entire article. We have created a machine learning model to analyze an article’s title and output whether or not it is biased with a 95% accuracy rate. 
  ## How the program works:                                                               
