@@ -8,7 +8,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score
 
 app = Flask(__name__)
-model = pickle.load(open('models.pkl', 'rb'))
+#model = pickle.load(open('models.pkl', 'rb'))
 
 
 
