@@ -1,0 +1,40 @@
+<html>
+<body bgcolor=#a3cfb4>
+    <center>
+        <h1> FINAL PREDICTION </h1>
+    <style>
+        img {
+            border-radius:50%;
+        }
+        button {
+            border: none;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+        }
+        button:hover {
+            background-color: #399EFC;
+            color: white;
+        }
+    </style>
+    {%if prediction == 0%}
+    <h1 style="color:red"> Article is Biased </h1>
+    <img src='https://c.files.bbci.co.uk/089D/production/_111750220_gettyimages-1215064495.jpg' alt="FAKE1">
+
+    
+    {%else%}
+    <h1 style = "color:green">Article is Unbiased!</h1>
+    <img src='https://thumbs.dreamstime.com/b/heres-real-news-42097069.jpg' alt="FAKE1">
+    
+    {%endif%}
+
+        <br><br>
+    <a href='/'> 
+        <button>Press to go back to homepage</button></a>
+
+    </center>
+</body>
+</html>
